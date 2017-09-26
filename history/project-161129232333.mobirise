@@ -1,0 +1,280 @@
+{
+  "settings": {
+    "name": "NewSite-11-08_0001",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "versionFirst": "3.8.5",
+    "uniqCompNum": 10,
+    "versionPublish": "3.9.0",
+    "publishType": "local",
+    "publishPath": "file:///Users/home/Desktop/matysan",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_styles": {
+            "P": {
+              "font-size": "23px"
+            }
+          },
+          "_anchor": "header6-7",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-2000x1333-6.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.35,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "MATYSAN GROUP",
+          "text": "YOUR WELL BEING IS PARAMOUNT.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-success\" data-toolbar=\"-mbrBtnMove\">CONTACT</a><a data-app-btn=\"true\" href=\"index.html#msg-box18-4\" class=\"btn mbr-title-font btn-lg btn-border btn-success\" data-toolbar=\"-mbrBtnMove\">our brands</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features10",
+          "_anchor": "features10-9",
+          "_params": {
+            "animType": "gorizontal",
+            "paddingTop": 2,
+            "paddingBottom": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "image1": "@PROJECT_PATH@/assets/images/5-2000x1333-20.jpg",
+            "showButtons": true,
+            "image2": "@PROJECT_PATH@/assets/images/sss-2000x3019-76.jpg",
+            "image3": "@PROJECT_PATH@/assets/images/result-2000x1333-15.png",
+            "image4": "@PROJECT_PATH@/assets/images/u-2000x3136-9.jpg"
+          },
+          "title": "OUR BUSINESS SECTOR",
+          "title1": "<strong>NUTRITION</strong>",
+          "text1": "The global clinical nutrition market was valued at $39,339.4 million in 2015, and it is expected to grow at a CAGR of 5.4% during 2016 - 2022.",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#msg-box18-4\" class=\"btn mbr-title-font btn-success\" data-toolbar=\"-mbrBtnMove\">SANUT</a>",
+          "title2": "<b>SPA INDUSTRY</b>",
+          "text2": "The market is driven by hectic lifestyle in urban areas, <br>There is significant rising demand from emerging markets,<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#msg-box18-4\" class=\"btn mbr-title-font btn-success\" data-toolbar=\"-mbrBtnMove\">LPG ENDERMOSPA</a>",
+          "title3": "<strong>BEAUTY &amp; ANTI AGING</strong>",
+          "text3": "The anti-aging market has an annual growth rate of 7.8% between 2013 and 2019 and is projected to be worth 191.7 billion USD by 2019.",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#msg-box18-4\" class=\"btn mbr-title-font btn-success\" data-toolbar=\"-mbrBtnMove\">LPG ENDERMOSPA</a>",
+          "title4": "<strong>FITNESS</strong>",
+          "text4": "Globally there are over 180,000 fitness clubs, estimated to have earned $84 billion from their 145 million members",
+          "button4": "<a data-app-btn=\"true\" href=\"index.html#msg-box18-4\" class=\"btn mbr-title-font btn-success\" data-toolbar=\"-mbrBtnMove\">SANUT</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#0e0e0e"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#0e0e0e"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#0e0e0e",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ogo-matysan-183x128-34.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MATYSAN</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-4\">BRANDS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features10-9\">OUR BUSINESS SECTOR</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-5\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_styles": {
+            "SPAN": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "msg-box18-4",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/lovelyflower-2000x1000-40.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.1",
+            "overlayColor": "#151515"
+          },
+          "title": "<span style=\"line-height: 1.1; background-color: inherit;\">OUR BRANDS</span><span style=\"line-height: 1.1; background-color: inherit;\"><br></span><br>",
+          "text": ""
+        },
+        {
+          "title": "CONTACT FORM",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-5",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#1e2428",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "form": {
+            "action": "alancruzr@gmail.com",
+            "alerts": {
+              "success": "Thanks for being in touch! we will be back with you soon!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email"
+              },
+              "subject": {
+                "title": "subject",
+                "visible": true,
+                "customTitle": "Subject"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-default btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-6",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#1e2428",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "© 2016. MATYSAN. TODOS LOS DERECHOS RESERVADOS. VOLT GROUP WEB SERVICES."
+        }
+      ]
+    }
+  }
+}
